@@ -5,12 +5,11 @@ const Header = () => {
     <div className="home-header">
       <h2>Inc. This morning</h2>
       <h1>
-        {" "}
-        <span>“</span>Blog <span>”</span>
+        <span>“</span>Blog-Avi<span>”</span>
       </h1>
       <p>
         Awesome place to make one self <br /> productive and entertained through
-        daily update{" "}
+        daily update
       </p>
     </div>
   );
