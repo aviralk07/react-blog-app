@@ -8,7 +8,7 @@ const BlogItem = ({
     id,
     description,
     title,
-    creatAt,
+    createdAt,
     authorName,
     authorAvatar,
 
@@ -26,7 +26,7 @@ const BlogItem = ({
         <img src={authorAvatar} alt="avtar" />
         <div>
           <h6>{authorName}</h6>
-          <p>{creatAt}</p>
+          <p>{createdAt}</p>
           <Link className="blog-item-link" to={`/blog/${id}`}>
             <BsFillArrowRightCircleFill />
           </Link>
