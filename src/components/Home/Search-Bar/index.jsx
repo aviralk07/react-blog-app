@@ -13,7 +13,7 @@ const SerchBar = ({ value, handelSearchKey, clearSearch, formSubmit }) => {
             value={value}
             class="searchTerm"
           />
-          {value && <span onClick={clearSearch}>X</span>}
+          {value && <span className="crossBar" onClick={clearSearch}>X</span>}
           <button type="submit" class="searchButton">
             <FaMagnifyingGlass /> Go
           </button>

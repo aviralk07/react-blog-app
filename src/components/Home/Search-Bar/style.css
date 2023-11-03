@@ -56,3 +56,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.crossBar {
+  font-size: 28px !important;
+  color: red;
+ 
+  position: relative;
+  right: 30px;
+  bottom: 2px;
+  
+}
