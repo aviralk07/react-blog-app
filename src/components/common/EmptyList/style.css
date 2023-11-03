@@ -5,5 +5,7 @@
 
 .emptyList-wrap img {
   max-width: 250px;
-  width: 100px;
+  width: 300px;
+  position: relative;
+  top: 200px;
 }

@@ -4,7 +4,7 @@
 
 .home-header h2 {
   font-size: 2rem;
-  color: #0080ff;
+  color: #c5007d;
 }
 .home-header h1 {
   font-size: 3rem;
@@ -12,10 +12,10 @@
   margin-bottom: 1rem;
 }
 .home-header h1 span {
-  color: #9fc1ed;
+  color: #0028bb;
 }
 .home-header p {
-  color: rgb(155, 135, 167);
-  font-weight: 500;
+  color: rgb(255, 0, 0);
+  font-weight: 700;
   font-size: 1.3rem;
 }

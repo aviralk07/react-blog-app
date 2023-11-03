@@ -43,8 +43,8 @@
 
 .blog-item-link {
   text-decoration: none;
-  color: rgb(166, 0, 0);
-  font-size: 30px;
+  color: #790ad4;
+  font-size: 35px;
   margin-left: 230px;
   position: relative;
   bottom: 10px;
@@ -75,4 +75,11 @@
   font-size: 17px;
   position: relative;
   top: 20px;
+}
+
+.subcategory-chips {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  min-width: 300px;
 }

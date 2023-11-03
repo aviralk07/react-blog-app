@@ -40,7 +40,7 @@ const Home = () => {
         handelSearchKey={(e) => setSearchkey(e.target.value)}
       />
       {/* Blog- list & Empty-list */}
-      {!blogs.length ? <EmptyList /> : <BlogList blogs={blogList} />}
+      {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
     </div>
   );
 };

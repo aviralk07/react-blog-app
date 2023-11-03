@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import  Chip  from "../../../common/Chip";
+import Chip from "../../../common/Chip";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const BlogItem = ({
   blog: {
@@ -11,14 +11,19 @@ const BlogItem = ({
     createdAt,
     authorName,
     authorAvatar,
-
     category,
+    subCategory,
     cover,
   },
 }) => (
   <div className="blogItem-wrap">
     <img src={cover} alt="cover" className="img-cover" />
-    <Chip  label={category} />
+    <div className="subcategory-chips">
+      <Chip lable={category} isPrimary={true} />
+      {subCategory.map((subCategory) => (
+        <Chip lable={subCategory} />
+      ))}
+    </div>
     <h3>{title}</h3>
     <p className="blogItem-desc">{description}</p>
     <footer>

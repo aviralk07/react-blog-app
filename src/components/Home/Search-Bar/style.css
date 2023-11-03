@@ -10,12 +10,14 @@ body {
   position: relative;
   display: flex;
   height: 300px;
+  padding: 5px;
 }
 .searchTerm::placeholder {
-  color: #a7a7a7; /* Change the color to your desired value */
+  color: #f4ebeb; /* Change the color to your desired value */
   font-style: italic; /* Add other styling as needed */
   font-size: 15px;
   font-weight: 500;
+  padding: 5px;
 }
 
 .searchTerm {
@@ -39,13 +41,14 @@ body {
   width: 150px;
   height: 36px;
   border: 1px solid #220093;
-  background: #00b4cc;
+  background: #6d4e9f;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
   padding: 3px;
+  font-weight: 600;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -60,9 +63,8 @@ body {
 .crossBar {
   font-size: 28px !important;
   color: red;
- 
+
   position: relative;
   right: 30px;
   bottom: 2px;
-  
 }
